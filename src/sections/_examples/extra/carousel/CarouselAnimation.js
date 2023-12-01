@@ -116,11 +116,11 @@ function CarouselItem({ item, isActive }) {
           </Typography>
         </m.div>
 
-        <m.div variants={varFade().inRight}>
+        {/* <m.div variants={varFade().inRight}>
           <Button variant="contained" sx={{ mt: 3 }}>
-            View More
+            Xem thêm
           </Button>
-        </m.div>
+        </m.div> */}
       </CardContent>
     </Paper>
   );
